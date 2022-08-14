@@ -58,7 +58,7 @@ print(response)  # prints whatever user typed in
 """
  - Numbers can be converted to strings with built-in function str()
  - If you do not convert numbers to strings, they cannot be concatenated with strings
-    and you will gey TypeError
+    and you will get TypeError
 """
 my_variable = 5
 print("The value of my_variable is: " + str(my_variable))

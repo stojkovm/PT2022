@@ -13,7 +13,7 @@ print(read_only_dict['a'])
 # read_only_dict['a'] = 3 # TypeError
 
 """
- - Updates to tthe original are reflected in the read-only dict.
+ - Updates to the original are reflected in the read-only dict.
 """
 original_dict['c'] = 3
 print(read_only_dict['c'])

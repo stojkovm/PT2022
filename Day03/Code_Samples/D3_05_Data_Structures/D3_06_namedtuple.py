@@ -1,5 +1,5 @@
 """
- - The 'namedtuple' class provides an extension of the built-in 'tuple' data type.
+ - The 'NamedTuple' structure provides an extension of the built-in 'tuple' data type.
  - NamedTuple objects are immutable.
  - Each object stored in them can be accessed through a unique identifier.
  - NamedTuple objects are implemented as regular Python classes internally.

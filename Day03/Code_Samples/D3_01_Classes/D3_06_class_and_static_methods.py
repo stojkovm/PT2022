@@ -40,8 +40,6 @@ p1 = Person("James", 36)
  ('This is instance method!', <__main__.Person object at 0x10679baf0>)
 """
 print(p1.instance_method())
-p2 = Person.from_json("pera")
-print(p2)
 
 
 

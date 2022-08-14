@@ -17,9 +17,9 @@
 """
 
 
-def convert(fn_filename, ln_filename):
+def convert(fn_filename, ln_filename, full_name):
     pass
 
 
 if __name__ == "__main__":
-    convert('first_names.txt', "last_names.txt")
+    convert('first_names.txt', "last_names.txt", "full_names.txt")
