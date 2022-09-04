@@ -3,9 +3,9 @@
  - NamedTuple objects are immutable.
  - Each object stored in them can be accessed through a unique identifier.
  - NamedTuple objects are implemented as regular Python classes internally.
- - NamedTupe objects are more memory eficient than regular classes
+ - NamedTuple objects are more memory efficient than regular classes
     and just as memory efficient as regular tuples.
- - NamedTupes support type hints.
+ - NamedTuples support type hints.
 """
 from typing import NamedTuple
 from sys import getsizeof

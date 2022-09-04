@@ -26,8 +26,8 @@ y = len("this is a string")
 
 
 """
- - PEP8 recomments that each line of Python code contains
-    no more than 79 characters includig spaces.
+ - PEP8 recommends that each line of Python code contains
+    no more than 79 characters including spaces.
  - Multiline strings can be constructed by ending each but the last line with backslash
     or surrounding string with triple quotes as delimiters.
 """
@@ -96,8 +96,8 @@ letter = my_variable[-1]  # reads letter 'd'
  - String slicing can be done by manipulating with indexes.
  - variable[x:y] reads the substring that starts with character at index x and
     goes up to but not including character at index y.
- - By omiting the index x, it is assumed that slicing starts at index 0.
- - By omiting the index y, it is assumed that slicing ends with the last character in the string.
+ - By omitting the index x, it is assumed that slicing starts at index 0.
+ - By omitting the index y, it is assumed that slicing ends with the last character in the string.
 """
 my_variable = "James Bond"
 print(my_variable[0:5])  # prints 'James'

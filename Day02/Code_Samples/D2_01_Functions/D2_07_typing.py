@@ -1,7 +1,7 @@
 """
  - PEP 484—Type Hints introduced syntax and semantics for explicit type declarations in
     function arguments, return values, and variables.
- - The goal is to help developer tools find bugs in Python codebases via static analysis,
+ - The goal is to help developers to find bugs in Python codebases via static analysis,
     i.e., without actually running the code through tests.
  - Type hinting is:
   - Optional

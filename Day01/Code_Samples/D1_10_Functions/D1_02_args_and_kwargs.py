@@ -1,5 +1,5 @@
 """
- - *args and *kwargs allow a function to accept optional arguments.
+ - *args and **kwargs allow a function to accept optional arguments.
  - If we call the function with additional arguments, 'args' will collect extra positional arguments
     as a tuple because the parameter name has a * prefix.
  - 'kwargs' will collect extra keyword arguments as a dictionary

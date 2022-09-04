@@ -5,7 +5,7 @@
     to the stop integer (excluding).
 """
 # prints integers 0 to 4
-import itertools
+
 for i in range(5):
     print(i)
 
@@ -55,7 +55,7 @@ for i in range(len(names)):
         max_count = count
 print(longest_name)
 
-# do it in a pythonic way
+# do it in a Pythonic way
 for name, count in zip(names, counts):
     if count > max_count:
         longest_name = name
@@ -75,7 +75,7 @@ print(longest_name)
  - If collections have different lenghts, use zip_longest function
      from itertools module.
 """
-
+import itertools
 names = ['James', 'John', 'Fernando', 'Juan']
 counts = [5, 4, 8]
 

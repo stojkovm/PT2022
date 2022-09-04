@@ -17,7 +17,7 @@ my_set = {'apple', 'orange', 'lemon'}
  - Common methods for manipulating sets:
   - my_set.add() - adds an element to the set
   - my_set.pop() - removes a random an element from the set
-  - my_set.remove(<el>) - Removes the specified element
+  - my_set.remove(<el>) - removes the specified element
   - my_set.difference(my_set2) - returns a set containing the difference between two or more sets (my_set - my_set2)
   - my_set.intersection(my_set2) - returns a set, that is the intersection of two or more sets (my_set & my_set2)
   - my_set.union(my_set2) - update the set with another set, or any other iterable (my_set | my_set2)

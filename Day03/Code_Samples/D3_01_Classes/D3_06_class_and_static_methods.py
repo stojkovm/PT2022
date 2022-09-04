@@ -15,7 +15,7 @@ class Person:
          - The class method only has access to this cls argument
             so it cannot modify object instance state.
          - It can be used to modify class variables.
-         - Class method are usually to create factory methods.
+         - Class methods are usually used to create factory methods.
          - Factory methods return class objects (similar to a constructor) for different use cases.
         """
         return "This is class method!", cls

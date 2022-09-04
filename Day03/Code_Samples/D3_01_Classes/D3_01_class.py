@@ -9,7 +9,7 @@ class Person:
         - When we create objects for classes, it requires memory and the attribute
             are stored in the form of a dictionary.
         - '__slots__' provide a special mechanism to reduce the size of objects.
-            It is a concept of memory optimisation on objects.
+            It is a concept of memory optimization on objects.
     """
     __slots__ = '__name', '__age'
 

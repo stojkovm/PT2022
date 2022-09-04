@@ -35,7 +35,7 @@ print(foo())  # prints None
 
 
 """
- - Unimplemented functions can you 'pass' keyword to ommit errors.
+ - Unimplemented functions can you 'pass' keyword to omit errors.
 """
 def foo():
     pass

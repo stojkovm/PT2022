@@ -45,7 +45,7 @@ print(profession)
 
 """
  - Avoid comparing directly to True, False
- - Rely on implicit "thrutiness"
+ - Rely on implicit "truthiness"
  - The following are considered False:
     - None
     - False
@@ -56,7 +56,7 @@ print(profession)
  - Everything else is considered True (and thus most things are implicitly True).
 """
 message = None
-if not message:
+if message:
     print(f"Detailed description: {message}")
 else:
     print(f"Message is empty!")
